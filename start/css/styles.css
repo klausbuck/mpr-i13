@@ -1,0 +1,77 @@
+body { 
+    background-color: #fff;
+    font-family: Calibri, Arial, Verdana, sans-serif; 
+    font-size: 1em;
+}
+h1, h2, h3 { 
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    color: #0165a3;
+}
+h1 {
+    font-size: 1.8em;
+}
+h2 {
+    font-size: 1.6em;
+}
+
+#wrapper {
+    width:1000px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    border-top-style: solid;
+    border-bottom-color: #0165a3;
+    border-bottom-width: 2px;
+    clear:left;
+    /* Kurzfassung: border 2px solid #0165a3 */
+}
+/*Navigation vertikal*/
+nav {
+    margin-bottom: 20px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    padding-top: 3px;
+}
+nav ul li a {
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:1.3rem;
+    border-bottom: 3px solid #0165a3; 
+}
+/*Pseudoklassen*/
+
+nav ul li a:hover, nav ul li a:focus {
+    border-bottom-color:#d98ea5;
+}
+nav ul li a:active {
+    color: #d98ea5;
+}
+/*Floaten und Clearen*/
+.bildlinks {
+    float:left;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
